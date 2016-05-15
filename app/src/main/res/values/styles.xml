@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#BF9D73</item>
+        <item name="colorPrimaryDark">#BF7C41</item>
+        <item name="colorAccent">#D9BD89</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppThemeDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">#BF9D73</item>
+        <item name="colorPrimaryDark">#BF7C41</item>
+        <item name="colorAccent">#D9BD89</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MaterialActionBar" parent="MaterialNavigationDrawerTheme.Light">
+        <item name="colorPrimary">#BF9D73</item>
+        <item name="colorPrimaryDark">#BF7C41</item>
+        <item name="colorAccent">#D9BD89</item>
+    </style>
+
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

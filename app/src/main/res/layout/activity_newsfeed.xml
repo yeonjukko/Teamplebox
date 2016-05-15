@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9BD89"
+    android:orientation="vertical"
+
+    tools:context="com.yeonjukko.teamplebox.TeampleBox.Newsfeed.NewsfeedFragment">
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/activity_newsfeed_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listViewNewsfeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/FloatingActionMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        fab:fab_addButtonColorNormal="#D9BD89"
+        fab:fab_addButtonColorPressed="#D9BD89"
+        fab:fab_addButtonPlusIconColor="#A69069"
+        fab:fab_addButtonSize="normal"
+
+        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingButtonNewsfeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#8C7351"
+            fab:fab_colorPressed="#8C7351"
+            fab:fab_icon="@drawable/ic_email_white_24dp"
+            fab:fab_size="mini"
+            fab:fab_title="팀원 추가" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</FrameLayout>
